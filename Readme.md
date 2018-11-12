@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Миронов](https://up.htmlacademy.ru/htmlcss/23/user/785755).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Островский](https://htmlacademy.ru/profile/grandmaus).
 
 ---
 
