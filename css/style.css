@@ -1,0 +1,296 @@
+body {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-list a {
+  color: #000000;
+}
+
+.navigation-list a:hover {
+  color: #81b3d2;
+}
+
+.navigation-list a:focus {
+  color: #b2b2b2;
+}
+
+.promo {
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.paragraph-of-reasons {
+  font-weight: 400;
+}
+
+.promo p {
+  text-align: center;
+}
+
+.description-title {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.paragraph-of-reasons {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.reasons {
+  list-style: none;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.paragraph-form {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.paragraph-date {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.hotel-search {
+  text-align: center;
+}
+
+.paragraph-date {
+  font-weight: 400;
+}
+
+.hotel-search fieldset {
+  border: none;
+}
+
+.hotel-search a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.hotel-search form {
+  background-color: #ffffff;
+}
+
+.hotel-search a:hover {
+  color: #ffffff;
+
+  background-color: #604e43;
+}
+
+.hotel-search a:focus {
+  color: #857871;
+
+  background-color: #503e33;
+}
+
+.hotel-search input {
+  font: inherit;
+  border: none;
+
+  background-color: #f2f2f2;
+}
+
+.hotel-search input:hover {
+  background-color: #ebebeb;
+}
+
+.hotel-search input:focus {
+  background-color: #ffffff;
+}
+
+.hotel-search input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.hotel-search input::-moz-placeholder {
+  color: #000000;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: center;
+  text-transform: uppercase;
+
+  border: none;
+}
+
+.search-item button {
+  background-color: #ffffff;
+}
+
+.button svg {
+  fill: #cacaca;
+}
+
+.button svg:hover {
+  fill: #000000;
+}
+
+.button svg:active {
+  fill: #81b3d2;
+}
+
+.search-button button {
+  background-color: #81b3d2;
+}
+
+.search-button button:hover {
+  background-color: #669ec0;
+}
+
+.search-button button:focus {
+  color: #88b6d1;
+
+  background-color: #5496bd;
+}
+
+.footer-social {
+  list-style: none;
+
+  text-align: center;
+}
+
+.visit-sedona {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.logo-academy {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.logo-academy svg {
+  fill: #231f20;
+}
+
+.logo-academy svg:hover {
+  fill: #81b3d2;
+}
+
+.logo-academy svg:active {
+  fill: #bdbbbc;
+}
+
+.inner-page {
+  color: #000000;
+
+  background-color: #f2f2f2;
+  background-position: 0 0;
+  background-repeat: repeat;
+
+}
+
+.hotels-current {
+  color: #766357;
+}
+
+.sorting-list{
+  list-style: none;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item a {
+  color: #000000;
+}
+
+.catalog-item a:hover {
+  color: #81b3d2;
+}
+
+.catalog-item a:focus {
+  color: #b2b2b2;
+}
+
+.apartment-name {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.apartment-type,
+.rental-price {
+  font-size: 14px;
+  font-height: 21px;
+  font-weight: 400;
+}
+
+.catalog-info .more-info {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.catalog-info .more-info:hover {
+  color: #ffffff;
+
+  background-color: #669ec0;
+}
+
+.catalog-info .more-info:active {
+  color: #88b6d1;
+
+  background-color: #5496bd;
+}
+
+.catalog-info .to-book {
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.catalog-info .to-book:hover {
+  color: #ffffff;
+
+  background-color: #604e43;
+}
+
+.catalog-info .to-book:active {
+  color: #857871;
+
+  background-color: #503e33;
+}
+
+.rating-apartments {
+  color: #8b8b8b;
+
+  background-color: #f2f2f2;
+}
