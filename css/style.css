@@ -177,6 +177,21 @@ a {
   background-color: #5496bd;
 }
 
+.plus-icon svg line,
+.minus-icon svg line {
+  stroke: #a9a9a9;
+}
+
+.plus-icon:hover svg line,
+.minus-icon:hover svg line {
+  stroke: #000000;
+}
+
+.plus-icon:active svg line,
+.minus-icon:active svg line{
+  stroke: #81b3d2;
+}
+
 .footer-social {
   list-style: none;
 
