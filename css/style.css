@@ -155,23 +155,23 @@ a {
   fill: #cacaca;
 }
 
-.button svg:hover {
+.button:hover svg {
   fill: #000000;
 }
 
-.button svg:active {
+.button:active svg {
   fill: #81b3d2;
 }
 
-.search-button button {
+.search-button {
   background-color: #81b3d2;
 }
 
-.search-button button:hover {
+.search-button:hover {
   background-color: #669ec0;
 }
 
-.search-button button:focus {
+.search-button:focus {
   color: #88b6d1;
 
   background-color: #5496bd;
