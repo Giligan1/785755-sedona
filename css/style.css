@@ -85,10 +85,6 @@ a {
   font-weight: 400;
 }
 
-.hotel-search fieldset {
-  border: none;
-}
-
 .hotel-search a {
   font-size: 21px;
   line-height: 26px;
@@ -177,18 +173,18 @@ a {
   background-color: #5496bd;
 }
 
-.plus-icon svg line,
-.minus-icon svg line {
+.plus-icon line,
+.minus-icon line {
   stroke: #a9a9a9;
 }
 
-.plus-icon:hover svg line,
-.minus-icon:hover svg line {
+.plus-icon:hover line,
+.minus-icon:hover line {
   stroke: #000000;
 }
 
-.plus-icon:active svg line,
-.minus-icon:active svg line{
+.plus-icon:active line,
+.minus-icon:active line {
   stroke: #81b3d2;
 }
 
@@ -308,4 +304,28 @@ a {
   color: #8b8b8b;
 
   background-color: #f2f2f2;
+}
+
+.stars-rating-4 {
+  background-image: url(../img/star.svg);
+  width: 60px;
+  height: 17px;
+  background-repeat: repeat-x;
+  padding: 6px;
+}
+
+.stars-rating-3 {
+  background-image: url(../img/star.svg);
+  width: 42px;
+  height: 17px;
+  background-repeat: repeat-x;
+  padding: 6px;
+}
+
+.stars-rating-2 {
+  background-image: url(../img/star.svg);
+  width: 24px;
+  height: 17px;
+  background-repeat: repeat-x;
+  padding: 6px;
 }
