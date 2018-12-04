@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.page-container {
+  width: 1200px;
+}
+
 .navigation-list {
   list-style: none;
 }
@@ -306,26 +310,48 @@ a {
   background-color: #f2f2f2;
 }
 
-.stars-rating-4 {
+.stars-rating {
   background-image: url(../img/star.svg);
+  background-repeat: repeat-x;
+  padding: 6px;
+  height: 17px;
+}
+
+.rating-4 {
   width: 60px;
-  height: 17px;
-  background-repeat: repeat-x;
-  padding: 6px;
 }
 
-.stars-rating-3 {
-  background-image: url(../img/star.svg);
+.rating-3 {
   width: 42px;
-  height: 17px;
-  background-repeat: repeat-x;
-  padding: 6px;
 }
 
-.stars-rating-2 {
-  background-image: url(../img/star.svg);
+.rating-2 {
   width: 24px;
-  height: 17px;
-  background-repeat: repeat-x;
-  padding: 6px;
 }
+
+
+/* Макросетки*/
+
+/** {
+  background-color: rgba(0,0,255,0.1);
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-list {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header-logo {
+  order: 2;
+  align-self: center;
+}
+
+.container1 {
+  display: flex;
+}*/
