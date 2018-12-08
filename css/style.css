@@ -17,8 +17,21 @@ a {
   width: 1200px;
 }
 
+..main-header {
+  width: 1200px;
+}
+
+.main-header-logo {
+  position: absolute;
+  left: 530px;
+}
+
 .navigation-list {
   list-style: none;
+  display: flex;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-list a {
@@ -33,10 +46,47 @@ a {
   color: #b2b2b2;
 }
 
+.navigation-list li {
+  width: 239px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+}
+
+.navigation-list li:nth-child(3),
+.navigation-list li:nth-child(4) {
+  text-align: right;
+}
+
+.navigation-list li:nth-child(1) {
+  padding-left: 71px;
+}
+
+.navigation-list li:nth-child(2) {
+  padding-left: 76px;
+}
+
+.navigation-list li:nth-child(3) {
+  margin-left: 244px;
+  padding-right: 80px;
+}
+
+.navigation-list li:nth-child(4) {
+  padding-right: 71px;
+}
+
 .promo {
   background-image: url("../img/background-photo.jpg");
-  background-position: top center;
+  background-position: center -58px;
   background-repeat: no-repeat;
+}
+
+.padding-logo-site {
+  padding: 0;
+  margin: 0;
+}
+
+.padding-logo-site img {
+  margin-top: 76px;
 }
 
 .paragraph-of-reasons {
@@ -51,6 +101,11 @@ a {
   text-align: center;
   font-size: 21px;
   line-height: 26px;
+
+  width: 440px;
+  margin-top: 131px;
+  margin-left: 380px;
+  padding-top: 0;
 }
 
 .paragraph-of-reasons {
@@ -58,10 +113,15 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
+
+  width: 500px;
+  margin-top: 26px;
+  margin-left: 350px;
 }
 
 .reasons {
   list-style: none;
+  display: flex;
 }
 
 .services-list {
@@ -78,6 +138,8 @@ a {
   text-align: center;
   font-size: 14px;
   line-height: 26px;
+  font-weight: 400;
+
   color: #333333;
 }
 
@@ -85,8 +147,12 @@ a {
   text-align: center;
 }
 
-.paragraph-date {
-  font-weight: 400;
+.hotel-search form {
+  width: 568px;
+  margin: 0;
+  margin-left: 316px;
+
+  background-color: #ffffff;
 }
 
 .hotel-search a {
@@ -95,22 +161,6 @@ a {
   color: #ffffff;
 
   background-color: #766357;
-}
-
-.hotel-search form {
-  background-color: #ffffff;
-}
-
-.hotel-search a:hover {
-  color: #ffffff;
-
-  background-color: #604e43;
-}
-
-.hotel-search a:focus {
-  color: #857871;
-
-  background-color: #503e33;
 }
 
 .hotel-search input {
@@ -192,16 +242,44 @@ a {
   stroke: #81b3d2;
 }
 
-.footer-social {
-  list-style: none;
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
 
-  text-align: center;
+.footer-social {
+  display: flex;
+  margin: 0;
+  margin-right: 60px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
 }
 
 .visit-sedona {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
+
+  width: 240px;
+  padding-left: 60px;
+  margin-left: 73px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  align-self: center;
+}
+
+.social-button svg {
+  width: 46px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
+
+.facebook-icon {
+  margin-right: 6px;
+  margin-left: 6px;
 }
 
 .logo-academy {
@@ -209,6 +287,11 @@ a {
   line-height: 26px;
   font-weight: 400;
   color: #000000;
+
+  display: flex;
+  width: 240px;
+  margin-top: 38px;
+  margin-right: 55px;
 }
 
 .logo-academy svg {
@@ -223,13 +306,27 @@ a {
   fill: #bdbbbc;
 }
 
+.landing-text {
+  padding-top: 7px;
+}
+
+.rating {
+  width: 240px;
+  margin-left: 290px;
+  text-align: right;
+}
+
 .inner-page {
   color: #000000;
 
   background-color: #f2f2f2;
   background-position: 0 0;
   background-repeat: repeat;
+}
 
+.catalog-item-image {
+  margin-left: 72px;
+  margin-top: 30px;
 }
 
 .hotels-current {
@@ -242,6 +339,12 @@ a {
 
 .catalog-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item {
+  display: flex;
 }
 
 .catalog-item a {
@@ -266,6 +369,12 @@ a {
   font-size: 14px;
   font-height: 21px;
   font-weight: 400;
+}
+
+.apartment-info {
+  width: 364px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .catalog-info .more-info {
@@ -319,39 +428,15 @@ a {
 
 .rating-4 {
   width: 60px;
+  margin-left: 168px;
 }
 
 .rating-3 {
   width: 42px;
+  margin-left: 185px;
 }
 
 .rating-2 {
   width: 24px;
+  margin-left: 203px;
 }
-
-
-/* Макросетки*/
-
-/** {
-  background-color: rgba(0,0,255,0.1);
-}
-
-.main-navigation {
-  display: flex;
-  flex-direction: column;
-}
-
-.navigation-list {
-  width: auto;
-  margin: 0;
-  padding: 0;
-}
-
-.main-header-logo {
-  order: 2;
-  align-self: center;
-}
-
-.container1 {
-  display: flex;
-}*/
