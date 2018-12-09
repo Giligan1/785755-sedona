@@ -17,7 +17,7 @@ a {
   width: 1200px;
 }
 
-..main-header {
+.main-header {
   width: 1200px;
 }
 
@@ -47,6 +47,8 @@ a {
 }
 
 .navigation-list li {
+  display: flex;
+  justify-content: center;
   width: 239px;
   padding-top: 15px;
   padding-bottom: 16px;
@@ -57,22 +59,10 @@ a {
   text-align: right;
 }
 
-.navigation-list li:nth-child(1) {
-  padding-left: 71px;
-}
-
-.navigation-list li:nth-child(2) {
-  padding-left: 76px;
-}
-
 .navigation-list li:nth-child(3) {
   margin-left: 244px;
-  padding-right: 80px;
 }
 
-.navigation-list li:nth-child(4) {
-  padding-right: 71px;
-}
 
 .promo {
   background-image: url("../img/background-photo.jpg");
@@ -367,7 +357,7 @@ a {
 .apartment-type,
 .rental-price {
   font-size: 14px;
-  font-height: 21px;
+  line-height: 21px;
   font-weight: 400;
 }
 
