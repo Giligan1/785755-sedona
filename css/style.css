@@ -13,12 +13,39 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .main-header {
   width: 1200px;
+  position: relative;
+
+  background-color: #ffffff;
 }
 
 .main-header-logo {
@@ -47,11 +74,13 @@ a {
 }
 
 .navigation-list li {
-  display: flex;
-  justify-content: center;
-  width: 239px;
+  width: 240px;
   padding-top: 15px;
   padding-bottom: 16px;
+  padding-left: 72px;
+  padding-right: 72px;
+
+  white-space: nowrap;
 }
 
 .navigation-list li:nth-child(3),
@@ -233,18 +262,15 @@ a {
 }
 
 .main-footer {
-  display: flex;
-  justify-content: space-between;
   width: 1200px;
+  padding: 38px 0;
+
+  text-align: center;
+  background-color: #ffffff;
 }
 
-.footer-social {
+.main-footer .footer-container{
   display: flex;
-  margin: 0;
-  margin-right: 60px;
-  padding: 0;
-  list-style: none;
-  align-items: center;
 }
 
 .visit-sedona {
@@ -253,23 +279,41 @@ a {
   color: #000000;
 
   width: 240px;
-  padding-left: 60px;
-  margin-left: 73px;
-  margin-top: 48px;
-  margin-bottom: 48px;
-  align-self: center;
+  margin-right: 212px;
+  margin-left: 72px;
+  padding: 0;
 }
 
-.social-button svg {
+.footer-social {
+  width: 150px;
+
+  text-align: center;
+}
+
+.footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 46px;
   height: 48px;
 
   background-color: #81b3d2;
 }
 
-.facebook-icon {
-  margin-right: 6px;
-  margin-left: 6px;
+.footer-copyright {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 
 .logo-academy {
@@ -278,10 +322,10 @@ a {
   font-weight: 400;
   color: #000000;
 
-  display: flex;
   width: 240px;
-  margin-top: 38px;
-  margin-right: 55px;
+  margin-right: 72px;
+  margin-left: auto;
+  text-align: center;
 }
 
 .logo-academy svg {
@@ -298,6 +342,7 @@ a {
 
 .landing-text {
   padding-top: 7px;
+  padding-right: 5px;
 }
 
 .rating {
