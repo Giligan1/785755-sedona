@@ -92,11 +92,11 @@ input[type="radio"].visually-hidden {
   margin-left: 244px;
 }
 
-
 .promo {
   background-image: url("../img/background-photo.jpg");
   background-position: center -58px;
   background-repeat: no-repeat;
+  padding-bottom: 75px;
 }
 
 .padding-logo-site {
@@ -122,7 +122,7 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
 
   width: 440px;
-  margin-top: 131px;
+  margin-top: 56px;
   margin-left: 380px;
   padding-top: 0;
 }
@@ -141,6 +141,7 @@ input[type="radio"].visually-hidden {
 .reasons {
   list-style: none;
   display: flex;
+  margin: 0;
 }
 
 .services-list {
@@ -151,6 +152,11 @@ input[type="radio"].visually-hidden {
   text-align: center;
   font-size: 30px;
   line-height: 36px;
+
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 24px;
 }
 
 .paragraph-date {
@@ -159,11 +165,17 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
   font-weight: 400;
 
+  width: 465px;
+  margin: 0 auto;
+  padding-bottom: 153px;
+
   color: #333333;
 }
 
 .hotel-search {
   text-align: center;
+
+  background-color: #ffffff;
 }
 
 .hotel-search form {
@@ -279,9 +291,10 @@ input[type="radio"].visually-hidden {
   color: #000000;
 
   width: 240px;
-  margin-right: 212px;
+  margin-right: 204px;
   margin-left: 72px;
-  padding: 0;
+  padding-left: 8px;
+  padding-top: 8px;
 }
 
 .footer-social {
@@ -309,10 +322,21 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 
+.social-button:hover {
+  background-color: #669ec0;
+}
+
+.social-button:active,
+.social-button:active path {
+  background-color: #5496bd;
+  fill: #88b6d1;
+}
+
 .footer-copyright {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding-top: 2px;
+  padding-right: 11px;
   justify-content: center;
 }
 
@@ -342,7 +366,7 @@ input[type="radio"].visually-hidden {
 
 .landing-text {
   padding-top: 7px;
-  padding-right: 5px;
+  padding-right: 8px;
 }
 
 .rating {
