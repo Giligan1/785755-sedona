@@ -7,6 +7,7 @@ body {
 	text-transform: uppercase;
 
   background-color: #f2f2f2;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.2) -5px 0 15px rgba(0,0,0,0.2);
 }
 
 a {
@@ -50,6 +51,7 @@ input[type="radio"].visually-hidden {
 
 .main-header-logo {
   position: absolute;
+  z-index: 1;
   left: 530px;
 }
 
@@ -97,23 +99,24 @@ input[type="radio"].visually-hidden {
   background-position: center -58px;
   background-repeat: no-repeat;
   padding-bottom: 70px;
+  position: relative;
+  z-index: 0;
 }
 
 .padding-logo-site {
   padding: 0;
   margin: 0;
-  position: relative;
 }
 
 .padding-logo-site img {
   margin-top: 76px;
 }
 
-.padding-logo-site::after {
+.promo::after {
   content: "";
 
   position: absolute;
-  bottom: -74px;
+  bottom: -4px;
   left: 0px;
   width: 1200px;
   height: 60px;
@@ -362,7 +365,7 @@ input[type="radio"].visually-hidden {
 
 .plus-icon,
 .minus-icon {
-  margin-bottom: 53px;
+  margin-bottom: 55px;
   padding: 0;
   height: 38px;
 }
@@ -495,10 +498,6 @@ input[type="radio"].visually-hidden {
   width: 240px;
   margin-left: 290px;
   text-align: right;
-}
-
-.inner-page {
-  margin-left: -17px;
 }
 
 .sotring-button path {
@@ -644,7 +643,7 @@ input[type="radio"].visually-hidden {
 }
 
 .stars-rating {
-  background-image: url(../img/star.svg);
+  background-image: url("../img/star.svg");
   background-repeat: space;
   margin-top: 30px;
   margin-bottom: 46px;
