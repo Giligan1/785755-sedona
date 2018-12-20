@@ -31,41 +31,102 @@
         </nav>
       </header>
 
-      <main class="container">
-        <section class="housing-search">
+      <main class="inner-container">
+        <form action="https://echo.htmlacademy.ru" method="post">
           <h1 class="visually-hidden">Поиск жилья</h1>
-          <!-- Здесь будет форма -->
-        </section>
-        <section class="filters">
-          <h2 class="visually-hidden">Фильтры для поиска</h2>
-          <!-- Здесь будет форма -->
-        </section>
+          <section class="housing-search">
+            <h2>Инфраструктура:</h2>
+            <p class="housing-search-item">
+              <label class="housing-search-checkbox">
+                <input type="checkbox" name="pool" class="visually-hidden" checked>
+                <span class="checkbox-indicator"></span>
+                Бассейн
+              </label>
+            </p>
+            <p class="housing-search-item">
+              <label class="housing-search-checkbox">
+                <input type="checkbox" name="parking" class="visually-hidden">
+                <span class="checkbox-indicator"></span>
+                Парковка
+              </label>
+            </p>
+            <p class="housing-search-item">
+              <label class="housing-search-checkbox">
+                <input type="checkbox" name="wi-fi" class="visually-hidden">
+                <span class="checkbox-indicator"></span>
+                wi-fi
+              </label>
+            </p>
+          </section>
+          <section class="filters">
+            <h2 class="visually-hidden">Фильтры для поиска</h2>
+            <h2>Тип жилья:</h2>
+            <p class="filter-item">
+              <label class="filter-checkbox">
+                <input type="checkbox" name="hostel" class="visually-hidden" checked>
+                <span class="checkbox-indicator"></span>
+                Гостиница
+              </label>
+            </p>
+            <p class="filter-item">
+              <label class="filter-checkbox">
+                <input type="checkbox" name="hotel" class="visually-hidden" checked>
+                <span class="checkbox-indicator"></span>
+                Мотель
+              </label>
+            </p>
+            <p class="filter-item">
+              <label class="filter-checkbox">
+                <input type="checkbox" name="apartment" class="visually-hidden" checked>
+                <span class="checkbox-indicator"></span>
+                Апартаменты
+              </label>
+            </p>
+          </section>
+          <section class="value-filter">
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
+            </div>
+          </section>
+        </form>
         <section class="sorting">
           <h3 class="sorting-result">Найдено: 3</h3>
           <ul class="sorting-list">
             <li class="sorting-point">
               <p>Сортировка:</p>
             </li>
-            <li class="sorting-current">
-              <span>По цене</span>
+            <li class="sorting-type">
+              <span class="sorting-current">По цене</span>
             </li>
             <li class="sorting-type">
               <a href="sorting-type.html">По типу</a>
             </li>
-            <li class="sotring-rating">
+            <li class="sorting-type">
               <a href="sorting-rating.html">По рейтингу</a>
             </li>
-            <li class="sotring-button">
+            <li class="sorting-button">
               <a href="sorting-button-up">
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="10">
                   <path fill="#231F20" d="M5.5 0L0 10h11z"/>
                 </svg>
               </a>
-              <a href="sotring-button-down">
+              <span class="sorting-button-down">
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10">
                   <path fill="#231F20" d="M5.5 10L0 0h11"/>
                 </svg>
-              </a>
+              </span>
             </li>
           </ul>
         </section>
